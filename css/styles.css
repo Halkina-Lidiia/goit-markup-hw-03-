@@ -1,0 +1,245 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+body {
+font-family: "Roboto",sans-serif;
+color: #434455;
+font-size: 16px;
+font-weight: 400;
+background: #FFF;  
+}
+
+
+
+
+.logo 
+{
+ color: #4D5AE5;
+ font-family: Raleway,sans-serif;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 1.17;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+}
+
+.logo-right {
+color: #2E2F42;
+}
+
+.logo-right:hover,
+.logo-right:focus {
+color: #2E2F42;
+}
+ 
+
+/* Body Medium */
+
+.site-nav
+{
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;   
+}
+.site-nav:hover,
+.site-nav:focus {
+color: #404bbf;
+}
+
+
+.social-links
+{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background: #fff;
+}
+.social-links:hover,
+.social-links:focus {
+ color: #404bbf;
+}
+
+    /* title */
+.title {
+background-color: #2E2F42;
+}
+   .title-hero
+{
+    color: #FFF;
+    background-color: #2E2F42;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+} 
+
+ .order-button
+ {
+    color: #FFF;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #4D5AE5; 
+ }
+   
+   .order-button:hover,
+   .order-button:focus {
+    background-color: #404bbf; }
+
+   .order-button { cursor: pointer; }
+   
+
+
+
+  /* our advantages */
+.advantages 
+{
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.text 
+{   font-size: 16px;
+    color: #434455;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;   
+}
+ /* our team */
+       .team-list {
+    background-color: #F4F4FD;
+       }
+      .person {
+       background-color: #FFF; 
+      }
+   .team-title
+{
+        color: #2E2F42;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        
+}
+
+   
+.person-title
+{
+    color: #2E2F42;
+    background-color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.person-text
+{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+ /* portfolio */
+.picture-title
+{
+    color:  #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.picture-name
+{   color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.text-picture
+{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+  /* footer */
+
+  .informations {
+    background-color: #2E2F42;
+  }
+   .inform
+{
+    color: #4D5AE5;
+    background-color: #2E2F42;
+    font-family: Raleway,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;   
+    }
+
+   .logo-info
+   {
+   color: #F4F4FD;
+   }
+   
+.inform-text
+{
+    color: #f4f4fD;
+    background-color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
