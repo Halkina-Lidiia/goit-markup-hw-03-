@@ -88,9 +88,6 @@ color: #2E2F42;
 /* Body Medium */
 
 
-.navigator {display: flex;
-}
-
 .site-nav
 {   
     color: #2E2F42;
@@ -130,7 +127,7 @@ gap: 40px;
 
 }
 .social-links {
- display: flex;   
+ display: inline-block;   
 }
 .social-links:hover,
 .social-links:focus {
