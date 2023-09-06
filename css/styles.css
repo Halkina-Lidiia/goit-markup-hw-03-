@@ -31,7 +31,10 @@ h3 {
 p{
  margin: 0;   
 }
-
+img {
+ display: block;
+  max-width: 100%;   
+}
 
 body {
 font-family: "Roboto",sans-serif;
@@ -42,10 +45,10 @@ background: #FFF;
 }
 
 .container {
-max-width: 2040px;
-padding-left: 
-padding-right 
-margin-left
+max-width:
+padding-left
+padding-right
+margin-left 
 margin-right
 }
  
@@ -62,8 +65,6 @@ margin-right
  text-transform: uppercase;
 display: inline-block;
 padding: 16px 0px;
- flex-direction: column;
- align-items: flex-end;
  gap: 16px;
  border-radius: 16px 16px 0px 0px;
  background: #FFF;
@@ -71,10 +72,8 @@ padding: 16px 0px;
 
 .logo-right {
 color: #2E2F42;
-display: flex;
  width: 71px;
  height: 21px;
- flex-direction: column;
  justify-content: center;
 display: inline-block;
 
@@ -89,28 +88,30 @@ color: #2E2F42;
 /* Body Medium */
 
 
-.navigator {
-display: flex;
+.navigator {display: flex;
+}
+.logostyle {
+    display: flex;
 }
 
 .site-nav
-{
+{   
     color: #2E2F42;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: inline-block;
     gap: 40px;
     justify-content: center;
-
-    }
+    display: flex;
+    align-items: center;
+}
     
 .site-nav:hover,
 .site-nav:focus {
 color: #404bbf;
-display: inline-block;
+display: flex;
 height: 48px;
 gap: 40px;
  justify-content: center;
@@ -126,7 +127,7 @@ gap: 40px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     background: #fff;
-    display: inline-block;
+    display: flex;
      width: 153px;
      justify-content: center;
 
@@ -137,7 +138,7 @@ gap: 40px;
 .social-links:hover,
 .social-links:focus {
  color: #404bbf;
-display: inline-block;
+display: flex;
 height: 24px;
  justify-content: center;
   align-items: center;
@@ -158,6 +159,7 @@ background-color: #2E2F42;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+   
 } 
 
  .order-button
@@ -170,6 +172,9 @@ background-color: #2E2F42;
     letter-spacing: 0.04em;
     background: #4D5AE5;
     display: block;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
 
  }
    
@@ -191,7 +196,6 @@ background-color: #2E2F42;
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -201,7 +205,6 @@ background-color: #2E2F42;
 {   font-size: 16px;
     color: #434455;
     font-family: Roboto;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;   
@@ -218,7 +221,6 @@ background-color: #2E2F42;
         color: #2E2F42;
         font-family: Roboto;
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
@@ -234,7 +236,6 @@ background-color: #2E2F42;
     background-color: #FFF;
     font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -245,7 +246,6 @@ background-color: #2E2F42;
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -257,7 +257,6 @@ background-color: #2E2F42;
     color:  #2E2F42;
     text-align: center;
     font-family: Roboto;
-    font-style: normal;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
@@ -268,7 +267,6 @@ background-color: #2E2F42;
 {   color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
